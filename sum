@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# this is a comment
+# this is also a comment
+sum=0
+for i in $1 $2 $3 $4 $5
+do
+        sum=$(($i+$sum))
+done
+echo $sum
